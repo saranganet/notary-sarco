@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NotaryCopilot – India's Digital Notary Platform</title>
+  <meta name="description" content="NotaryCopilot is India's most powerful online notary management software. Create documents, capture biometrics, store on cloud, and share via QR code or register number instantly." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="logo" id="logo-link">
+        <div class="logo-icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#C62828"/>
+            <path d="M8 8h10l6 6v10H8V8z" fill="white" opacity="0.2"/>
+            <path d="M8 8h10l6 6v10H8V8z" stroke="white" stroke-width="1.5" fill="none"/>
+            <path d="M18 8v6h6" stroke="white" stroke-width="1.5"/>
+            <line x1="11" y1="14" x2="18" y2="14" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="11" y1="17" x2="21" y2="17" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="11" y1="20" x2="17" y2="20" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <span class="logo-text">Notary<span class="logo-accent">Copilot</span></span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#features" class="nav-link">Features</a></li>
+        <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+        <li><a href="#pricing" class="nav-link">Pricing</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="https://wa.me/918847742328" target="_blank" rel="noopener" class="btn-primary" id="get-started-btn">Get Started</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-glow hero-glow-1"></div>
+    <div class="hero-glow hero-glow-2"></div>
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge" id="hero-badge">
+          <span class="badge-dot"></span>
+          India's #1 Digital Notary Platform
+        </div>
+        <h1 class="hero-title" id="hero-title">
+          Notarize Smarter.<br/>
+          <span class="gradient-text">Stay Ahead.</span><br/>
+          Stay Legal.
+        </h1>
+        <p class="hero-subtitle" id="hero-subtitle">
+          The complete digital notary desk for Indian notary officers. Draft documents, capture biometrics &amp; photos, store securely on cloud — accessible via QR code or register number from anywhere.
+        </p>
+        <div class="hero-cta" id="hero-cta">
+          <a href="https://wa.me/918847742328" target="_blank" rel="noopener" class="btn-primary btn-large" id="hero-primary-cta">
+            Get Started
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10h12M10 4l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="#how-it-works" class="btn-outline btn-large" id="hero-secondary-cta">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="1.5"/><path d="M8 7l5 3-5 3V7z" fill="currentColor"/></svg>
+            See How It Works
+          </a>
+        </div>
+        <div class="hero-stats" id="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number">50+</span>
+            <span class="stat-label">Legal Templates</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Cloud Secured</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">MH</span>
+            <span class="stat-label">Maharashtra Only</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual" id="hero-visual">
+        <div class="hero-image-wrapper">
+          <img src="notary_hero.jpg" alt="NotaryCopilot platform showing document, biometrics, QR code and cloud storage" class="hero-img" id="hero-img" />
+          <div class="hero-card hero-card-1" id="hero-card-qr">
+            <div class="card-icon">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="7" height="7" rx="1" stroke="#C62828" stroke-width="1.5"/><rect x="11" y="2" width="7" height="7" rx="1" stroke="#C62828" stroke-width="1.5"/><rect x="2" y="11" width="7" height="7" rx="1" stroke="#C62828" stroke-width="1.5"/><rect x="4" y="4" width="3" height="3" fill="#C62828" rx="0.5"/><rect x="13" y="4" width="3" height="3" fill="#C62828" rx="0.5"/><rect x="4" y="13" width="3" height="3" fill="#C62828" rx="0.5"/><rect x="13" y="13" width="2" height="2" fill="#C62828" rx="0.5"/></svg>
+            </div>
+            <div><div class="card-title">QR Verified</div><div class="card-sub">Instant notary access</div></div>
+          </div>
+          <div class="hero-card hero-card-2" id="hero-card-bio">
+            <div class="card-icon">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 3C8.3 3 7 4.1 7 5.5c0 2.5 1.3 6 3 8.5 1.7-2.5 3-6 3-8.5C13 4.1 11.7 3 10 3z" stroke="#C62828" stroke-width="1.5"/><path d="M5 7c-.7 1-1 2.1-1 3.5C4 13.5 6.5 16.5 10 17c3.5-.5 6-3.5 6-6.5C16 9.1 15.7 8 15 7" stroke="#C62828" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+            <div><div class="card-title">Biometric Captured</div><div class="card-sub">SecuGen verified</div></div>
+          </div>
+          <div class="hero-card hero-card-3" id="hero-card-cloud">
+            <div class="card-icon">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M15 13.5A3.5 3.5 0 0014 7a5 5 0 00-9.9 1 3.5 3.5 0 00.4 7H15z" stroke="#C62828" stroke-width="1.5" stroke-linejoin="round"/></svg>
+            </div>
+            <div><div class="card-title">Cloud Synced</div><div class="card-sub">Secure &amp; encrypted</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-wave">
+      <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path d="M0 40 Q360 80 720 40 Q1080 0 1440 40 L1440 80 L0 80 Z" fill="white"/>
+      </svg>
+    </div>
+  </section>
+
+  <section class="trusted" id="trusted">
+    <div class="container">
+      <p class="trusted-label">Currently available across Maharashtra districts</p>
+      <div class="trusted-logos">
+        <div class="trust-badge" id="trust-pune">📍 Pune</div>
+        <div class="trust-badge" id="trust-mumbai">📍 Mumbai</div>
+        <div class="trust-badge" id="trust-thane">📍 Thane</div>
+        <div class="trust-badge" id="trust-nashik">📍 Nashik</div>
+        <div class="trust-badge" id="trust-aurangabad">📍 Chhatrapati Sambhajinagar</div>
+        <div class="trust-badge" id="trust-nagpur">📍 Nagpur</div>
+        <div class="trust-badge" id="trust-kolhapur">📍 Kolhapur</div>
+        <div class="trust-badge" id="trust-solapur">📍 Solapur</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Features</span>
+        <h2 class="section-title">Everything a Notary Officer Needs</h2>
+        <p class="section-subtitle">A complete digital desk — built specifically for Indian notary practice, available on any device.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card feature-card-large" id="feat-doc">
+          <div class="feature-icon-wrap">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect x="4" y="2" width="18" height="24" rx="2" stroke="#C62828" stroke-width="2"/><path d="M22 2l6 6v18a2 2 0 01-2 2H10" stroke="#C62828" stroke-width="2" stroke-linecap="round"/><line x1="9" y1="12" x2="19" y2="12" stroke="#C62828" stroke-width="2" stroke-linecap="round"/><line x1="9" y1="16" x2="19" y2="16" stroke="#C62828" stroke-width="2" stroke-linecap="round"/><line x1="9" y1="20" x2="15" y2="20" stroke="#C62828" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="feature-title">Smart Document Drafting</h3>
+          <p class="feature-desc">Draft notary documents exactly like Word — with pre-loaded templates for tenancy, affidavit, power of attorney, sale deed &amp; 50+ more. Auto-fill party details, stamp values &amp; register numbers.</p>
+          <div class="feature-tags">
+            <span class="tag">50+ Templates</span>
+            <span class="tag">Auto-fill</span>
+            <span class="tag">Marathi / Hindi / English</span>
+          </div>
+        </div>
+        <div class="feature-card" id="feat-bio">
+          <div class="feature-icon-wrap">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M16 4C12.7 4 10 6.5 10 9.5c0 5 2.5 12 6 17 3.5-5 6-12 6-17C22 6.5 19.3 4 16 4z" stroke="#C62828" stroke-width="2"/><path d="M6 13c-1.5 2-2 4.3-2 7C4 26 9.5 31 16 31s12-5 12-11c0-2.7-.5-5-2-7" stroke="#C62828" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="feature-title">Biometric Capture</h3>
+          <p class="feature-desc">Capture fingerprints via SecuGen devices and live photos for all parties. Stored securely and linked to every document.</p>
+        </div>
+        <div class="feature-card" id="feat-qr">
+          <div class="feature-icon-wrap">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect x="3" y="3" width="11" height="11" rx="2" stroke="#C62828" stroke-width="2"/><rect x="18" y="3" width="11" height="11" rx="2" stroke="#C62828" stroke-width="2"/><rect x="3" y="18" width="11" height="11" rx="2" stroke="#C62828" stroke-width="2"/><rect x="6" y="6" width="5" height="5" fill="#C62828" rx="1"/><rect x="21" y="6" width="5" height="5" fill="#C62828" rx="1"/><rect x="6" y="21" width="5" height="5" fill="#C62828" rx="1"/><rect x="20" y="20" width="3" height="3" fill="#C62828"/><rect x="25" y="20" width="3" height="3" fill="#C62828"/><rect x="20" y="25" width="3" height="3" fill="#C62828"/><rect x="25" y="25" width="3" height="3" fill="#C62828"/></svg>
+          </div>
+          <h3 class="feature-title">QR Code Access</h3>
+          <p class="feature-desc">Every notarized document gets a unique QR code. Scan once to instantly verify authenticity — no paperwork needed.</p>
+        </div>
+        <div class="feature-card" id="feat-cloud">
+          <div class="feature-icon-wrap">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M24 21a6 6 0 00-1-11.9 8 8 0 00-15.7 2 6 6 0 00.7 11.9H24z" stroke="#C62828" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="feature-title">Cloud Storage</h3>
+          <p class="feature-desc">All documents, photos, and biometrics are encrypted and stored on secure cloud servers. Access your entire register from anywhere, anytime.</p>
+        </div>
+        <div class="feature-card" id="feat-reg">
+          <div class="feature-icon-wrap">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect x="3" y="5" width="26" height="22" rx="3" stroke="#C62828" stroke-width="2"/><path d="M3 11h26" stroke="#C62828" stroke-width="2"/><circle cx="8" cy="8" r="1.5" fill="#C62828"/><circle cx="13" cy="8" r="1.5" fill="#C62828"/><line x1="9" y1="17" x2="23" y2="17" stroke="#C62828" stroke-width="1.5" stroke-linecap="round"/><line x1="9" y1="21" x2="19" y2="21" stroke="#C62828" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="feature-title">Online Register</h3>
+          <p class="feature-desc">Your complete notary register is available online. Search any document by registration number, date, or party name in seconds.</p>
+        </div>
+        <div class="feature-card feature-card-large" id="feat-multilang">
+          <div class="feature-icon-wrap">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12" stroke="#C62828" stroke-width="2"/><path d="M16 4c-4 4-6 8-6 12s2 8 6 12c4-4 6-8 6-12s-2-8-6-12z" stroke="#C62828" stroke-width="2"/><line x1="4" y1="16" x2="28" y2="16" stroke="#C62828" stroke-width="2"/></svg>
+          </div>
+          <h3 class="feature-title">Multilingual Support</h3>
+          <p class="feature-desc">Full support for English, Hindi, and Marathi — including Kruti Dev font rendering for regional documents. Switch languages instantly across the entire platform.</p>
+          <div class="feature-tags">
+            <span class="tag">English</span>
+            <span class="tag">हिन्दी</span>
+            <span class="tag">मराठी</span>
+            <span class="tag">Kruti Dev</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="how-it-works" id="how-it-works">
+    <div class="hiw-bg"></div>
+    <div class="container">
+      <div class="section-header section-header-light">
+        <span class="section-tag section-tag-light">How It Works</span>
+        <h2 class="section-title section-title-light">From Document to QR in 4 Steps</h2>
+        <p class="section-subtitle section-subtitle-light">Our guided workflow ensures every notary is legally compliant and digitally accessible from day one.</p>
+      </div>
+      <div class="steps-container">
+        <div class="steps-line"></div>
+        <div class="step" id="step-1">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <div class="step-icon-wrap">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M7 4h10l6 6v14H7V4z" stroke="white" stroke-width="2" fill="none"/><path d="M17 4v6h6" stroke="white" stroke-width="2"/><line x1="10" y1="13" x2="18" y2="13" stroke="white" stroke-width="1.5" stroke-linecap="round"/><line x1="10" y1="17" x2="18" y2="17" stroke="white" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="step-title">Draft Your Document</h3>
+            <p class="step-desc">Choose from 50+ legal templates or start fresh. Fill in party details, stamp value, property info — just like Word but smarter.</p>
+          </div>
+        </div>
+        <div class="step" id="step-2">
+          <div class="step-number">02</div>
+          <div class="step-content">
+            <div class="step-icon-wrap">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M14 3C11.2 3 9 5.1 9 7.8c0 4.3 2.1 10.4 5 14.7 2.9-4.3 5-10.4 5-14.7C19 5.1 16.8 3 14 3z" stroke="white" stroke-width="2"/><path d="M5 11c-1.2 1.7-1.8 3.7-1.8 6C3.2 22.5 8 27 14 27s10.8-4.5 10.8-10c0-2.3-.6-4.3-1.8-6" stroke="white" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="step-title">Capture Biometrics &amp; Photo</h3>
+            <p class="step-desc">Capture live fingerprints via SecuGen device and take party photos — linked directly to the notary record.</p>
+          </div>
+        </div>
+        <div class="step" id="step-3">
+          <div class="step-number">03</div>
+          <div class="step-content">
+            <div class="step-icon-wrap">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M22 17.5A8.5 8.5 0 0121 5a12 12 0 00-23.5 2.5A8.5 8.5 0 000.5 17.5H22z" stroke="white" stroke-width="2" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="step-title">Register &amp; Store on Cloud</h3>
+            <p class="step-desc">The document is auto-assigned a registration number, encrypted, and stored on cloud with full search capability.</p>
+          </div>
+        </div>
+        <div class="step" id="step-4">
+          <div class="step-number">04</div>
+          <div class="step-content">
+            <div class="step-icon-wrap">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><rect x="3" y="3" width="9" height="9" rx="1.5" stroke="white" stroke-width="2"/><rect x="16" y="3" width="9" height="9" rx="1.5" stroke="white" stroke-width="2"/><rect x="3" y="16" width="9" height="9" rx="1.5" stroke="white" stroke-width="2"/><rect x="5" y="5" width="5" height="5" fill="white" rx="1"/><rect x="18" y="5" width="5" height="5" fill="white" rx="1"/><rect x="5" y="18" width="5" height="5" fill="white" rx="1"/><rect x="17" y="17" width="3" height="3" fill="white"/><rect x="22" y="17" width="3" height="3" fill="white"/><rect x="17" y="22" width="3" height="3" fill="white"/><rect x="22" y="22" width="3" height="3" fill="white"/></svg>
+            </div>
+            <h3 class="step-title">Share via QR or Number</h3>
+            <p class="step-desc">Every document has a unique QR code and register number. Anyone can verify the notary instantly — no physical copy needed.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Pricing</span>
+        <h2 class="section-title">Simple, Transparent Pricing</h2>
+        <p class="section-subtitle">One platform, everything included. No hidden fees, no per-document charges.</p>
+      </div>
+      <div class="pricing-cards">
+        <div class="pricing-card" id="pricing-monthly">
+          <div class="pricing-plan-name">Monthly Plan</div>
+          <div class="pricing-amount">
+            <span class="currency">₹</span>
+            <span class="amount">1,999</span>
+            <span class="per-period">/ month</span>
+          </div>
+          <p class="pricing-desc">Perfect for individual notary officers looking to modernize their practice.</p>
+          <ul class="pricing-features-list">
+            <li class="pf-item"><svg class="pf-check" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="#C62828"/><path d="M6 10l3 3 5-5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Unlimited document drafting</li>
+            <li class="pf-item"><svg class="pf-check" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="#C62828"/><path d="M6 10l3 3 5-5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Biometric &amp; photo capture</li>
+            <li class="pf-item"><svg class="pf-check" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="#C62828"/><path d="M6 10l3 3 5-5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Cloud storage &amp; backup</li>
+            <li class="pf-item"><svg class="pf-check" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="#C62828"/><path d="M6 10l3 3 5-5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>QR code for every notary</li>
+            <li class="pf-item"><svg class="pf-check" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="#C62828"/><path d="M6 10l3 3 5-5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>50+ legal templates</li>
+            <li class="pf-item"><svg class="pf-check" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="#C62828"/><path d="M6 10l3 3 5-5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Multilingual (EN / HI / MR)</li>
+            <li class="pf-item"><svg class="pf-check" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="#C62828"/><path d="M6 10l3 3 5-5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Online register access</li>
+            <li class="pf-item"><svg class="pf-check" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="#C62828"/><path d="M6 10l3 3 5-5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Email support</li>
+          </ul>
+          <a href="https://wa.me/918847742328" target="_blank" rel="noopener" class="btn-primary btn-block" id="cta-monthly">Get Started — ₹1,999/mo</a>
+          <p class="pricing-note">+ One-time setup cost applicable · Cancel anytime</p>
+        </div>
+        <div class="pricing-card pricing-card-featured" id="pricing-yearly">
+          <div class="featured-badge">Best Value · Setup Fee Waived!</div>
+          <div class="pricing-plan-name">Yearly Plan</div>
+          <div class="pricing-amount">
+            <span class="currency">₹</span>
+            <span class="amount">19,999</span>
+            <span class="per-period">/ year</span>
+          </div>
+          <div class="pricing-savings">✅ FREE Setup · Save big vs monthly!</div>
+          <p class="pricing-desc">For serious notary professionals who want the best value and priority support.</p>
+          <ul class="pricing-features-list">
+            <li class="pf-item"><svg class="pf-check" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="white"/><path d="M6 10l3 3 5-5" stroke="#C62828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Everything in Monthly</li>
+            <li class="pf-item"><svg class="pf-check" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="white"/><path d="M6 10l3 3 5-5" stroke="#C62828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>FREE one-time setup (waived!)</strong></li>
+            <li class="pf-item"><svg class="pf-check" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="white"/><path d="M6 10l3 3 5-5" stroke="#C62828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Priority phone &amp; WhatsApp support</li>
+            <li class="pf-item"><svg class="pf-check" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="white"/><path d="M6 10l3 3 5-5" stroke="#C62828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Advanced analytics dashboard</li>
+            <li class="pf-item"><svg class="pf-check" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="white"/><path d="M6 10l3 3 5-5" stroke="#C62828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Dedicated onboarding session</li>
+            <li class="pf-item"><svg class="pf-check" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="white"/><path d="M6 10l3 3 5-5" stroke="#C62828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Custom branding on certificates</li>
+            <li class="pf-item"><svg class="pf-check" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="white"/><path d="M6 10l3 3 5-5" stroke="#C62828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Early access to new features</li>
+          </ul>
+          <a href="https://wa.me/918847742328" target="_blank" rel="noopener" class="btn-white btn-block" id="cta-yearly">Get Yearly — ₹19,999/yr</a>
+          <p class="pricing-note pricing-note-light">Equals just ₹1,667/month · Setup FREE · Best value</p>
+        </div>
+      </div>
+      <div class="pricing-assurance">
+        <div class="assurance-item"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2L3 7v5c0 5.5 3.8 10.7 9 12 5.2-1.3 9-6.5 9-12V7L12 2z" stroke="#C62828" stroke-width="1.5" stroke-linejoin="round"/></svg><span>SSL Encrypted</span></div>
+        <div class="assurance-item"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke="#C62828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Instant Setup</span></div>
+        <div class="assurance-item"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#C62828" stroke-width="1.5"/><path d="M12 6v6l4 2" stroke="#C62828" stroke-width="1.5" stroke-linecap="round"/></svg><span>24/7 Data Access</span></div>
+        <div class="assurance-item"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M22 12h-4l-3 9L9 3l-3 9H2" stroke="#C62828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>99.9% Uptime SLA</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Testimonials</span>
+        <h2 class="section-title">Notary Officers Love It</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testi-card" id="testi-1">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">"NotaryCopilot has completely transformed my office. Earlier I used to maintain registers manually — now everything is on cloud and my clients can verify documents with just a QR scan. Incredible!"</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background:#C62828">NP</div>
+            <div><div class="testi-name">Adv. Nilima Patil</div><div class="testi-role">Notary Officer, Pune</div></div>
+          </div>
+        </div>
+        <div class="testi-card" id="testi-2">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">"The biometric capture feature is a game changer. I was skeptical at first, but the setup was smooth and the support team helped me migrate all my old records. Highly recommended!"</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background:#B71C1C">RS</div>
+            <div><div class="testi-name">Adv. Rajesh Sharma</div><div class="testi-role">Notary Officer, Mumbai</div></div>
+          </div>
+        </div>
+        <div class="testi-card" id="testi-3">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">"The Marathi template support is amazing. I draft everything in Marathi, certificates print perfectly with the official seal. At ₹1,999/month it's an absolute bargain for what you get."</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background:#D32F2F">SK</div>
+            <div><div class="testi-name">Adv. Supriya Kulkarni</div><div class="testi-role">Notary Officer, Nashik</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq" id="faq">
+    <div class="container faq-inner">
+      <div class="section-header">
+        <span class="section-tag">FAQ</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item" id="faq-1">
+          <button class="faq-question" aria-expanded="false">Is my data safe and legally compliant?<svg class="faq-chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+          <div class="faq-answer"><p>Yes. All documents, biometrics, and photos are AES-256 encrypted at rest and in transit via TLS. We comply with the Indian IT Act 2000 and IT Amendment Act 2008. Your data is hosted on Indian servers.</p></div>
+        </div>
+        <div class="faq-item" id="faq-2">
+          <button class="faq-question" aria-expanded="false">Do I need special hardware for biometrics?<svg class="faq-chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+          <div class="faq-answer"><p>We support SecuGen fingerprint scanners. The platform also works without biometrics — you can upload scanned thumbprints. Photo capture works from any webcam or phone camera.</p></div>
+        </div>
+        <div class="faq-item" id="faq-3">
+          <button class="faq-question" aria-expanded="false">Can I migrate my existing register?<svg class="faq-chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+          <div class="faq-answer"><p>Yes! Our team assists with one-time data migration of existing notary register entries. Annual plan subscribers get a dedicated onboarding session for this. Monthly subscribers get migration guides and email support.</p></div>
+        </div>
+        <div class="faq-item" id="faq-4">
+          <button class="faq-question" aria-expanded="false">How does QR code verification work for clients?<svg class="faq-chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+          <div class="faq-answer"><p>Each notarized document gets a unique QR code printed on the certificate. Anyone can scan it to view the public verification page — showing document type, date, parties, and notary officer details — without creating an account.</p></div>
+        </div>
+        <div class="faq-item" id="faq-5">
+          <button class="faq-question" aria-expanded="false">What happens to my data if I cancel?<svg class="faq-chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+          <div class="faq-answer"><p>Your data is retained for 90 days after cancellation, during which you can export all documents and records in PDF or CSV format. After 90 days, data is permanently deleted per our privacy policy.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="final-cta" id="final-cta">
+    <div class="final-cta-glow"></div>
+    <div class="container">
+      <h2 class="final-cta-title">Ready to Modernize Your Notary Office?</h2>
+      <p class="final-cta-subtitle">Built for Maharashtra notary officers. Pick a plan and get your digital notary desk up and running today.</p>
+      <div class="final-cta-buttons">
+        <a href="https://wa.me/918847742328" target="_blank" rel="noopener" class="btn-white btn-large" id="final-cta-primary">Get Started Now</a>
+        <a href="tel:+918847742328" class="btn-outline-white btn-large" id="final-cta-secondary">📞 Call Us</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <div class="logo-icon">
+            <svg width="28" height="28" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="8" fill="#C62828"/><path d="M8 8h10l6 6v10H8V8z" fill="white" opacity="0.2"/><path d="M8 8h10l6 6v10H8V8z" stroke="white" stroke-width="1.5" fill="none"/><path d="M18 8v6h6" stroke="white" stroke-width="1.5"/><line x1="11" y1="14" x2="18" y2="14" stroke="white" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <span class="logo-text logo-text-dark">Notary<span class="logo-accent">Copilot</span></span>
+        </a>
+        <p class="footer-tagline">India's most trusted digital notary platform. Secure, compliant, and built for Indian law offices.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4 class="footer-col-title">Product</h4>
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title">Legal</h4>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Refund Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title">Support</h4>
+          <ul>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#">Documentation</a></li>
+            <li><a href="https://wa.me/918847742328" target="_blank" rel="noopener">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© 2026 NotaryCopilot. All rights reserved. Made with ❤️ in India.</p>
+        <p>Registered under the Notaries Act, 1952 compliance framework.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ── FLOATING CONTACT BAR ────────────────────── -->
+  <div class="float-bar" id="float-bar">
+    <a href="tel:+918847742328" class="float-btn float-call" id="float-call-btn" aria-label="Call us">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.8 10.8a19.79 19.79 0 01-3.07-8.68A2 2 0 012.7 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.66a16 16 0 006.06 6.06l1.02-1.03a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Call Us</span>
+    </a>
+    <div class="float-divider"></div>
+    <a href="https://wa.me/918847742328" target="_blank" rel="noopener" class="float-btn float-wa" id="float-wa-btn" aria-label="WhatsApp us">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>WhatsApp</span>
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
